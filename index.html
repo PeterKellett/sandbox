@@ -12,15 +12,38 @@
     <link rel="stylesheet" href="static/css/base.css">
 
     <title>SandBox</title>
-    
+
 </head>
 
 <body>
-
     <div class="container-fluid">
-        <div class="row">
+        <div class="container">
             <h1 class="text-center">Ramp lengths and angles</h1>
+            <form class="row text-center">
+                <div class="col">
+                    <label for="van-width">Van width:</label><br>
+                    <input type="text" id="van-width" name="van-width"><br>
+                </div>
+                <div class="col">
+                    <label for="van-height">Van height:</label><br>
+                    <input type="text" id="van-height" name="van-height">
+                </div>
+                <div class="col">
+                    <button id="submit1">Run</button>
+                </div>                             
+            </form>
+            <table class="table text-center">
+                <tr>
+                    <th>Ramp length / Mech space</th>
+                    <th>Angle</th>
+                    <th>Gradient</th>
+                    <th>Caster height</th>
+                </tr>
+                <tbody id="ramp-data"></tbody>
+            </table>
         </div>
+        
+        
         <div class="row">
             <div class="col">
                 <h5>VW Transporter</h5>
@@ -36,7 +59,7 @@
                     <tbody id="transporter-data"></tbody>
                 </table>
             </div>
-        
+
             <div class="col">
                 <h5>VW Crafter</h5>
                 <p>Floor height = 670 mm</p>
