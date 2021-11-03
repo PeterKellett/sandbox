@@ -17,7 +17,7 @@ $(document).ready(function(){
         grad = Math.tan(tetaRad);
         casterHeight = wcLength*Math.sin(tetaRad);
         mechanicalSpace = transporterWidth - i;
-        $("#transporter-data").append("<tr><td>" + i + " mm / " + mechanicalSpace + " mm" + "</td><td>" + tetaDeg.toFixed(2) + " deg" + "</td><td>"+ (grad*100).toFixed(2) + " %" + "</td><td>" + casterHeight.toFixed(2) + " mm" + "</td></tr>");
+        $("#transporter-data").append("<tr><td>" + i + " mm <strong>/</strong> " + mechanicalSpace + " mm" + "</td><td>" + tetaDeg.toFixed(2) + " deg" + "</td><td>"+ (grad*100).toFixed(2) + " %" + "</td><td>" + casterHeight.toFixed(2) + " mm" + "</td></tr>");
         if (Number.isNaN(tetaDeg)) {
             break;
         }
@@ -32,7 +32,7 @@ $(document).ready(function(){
         grad = Math.tan(tetaRad);
         casterHeight = wcLength*Math.sin(tetaRad);
         mechanicalSpace = crafterWidth - i;
-        $("#crafter-data").append("<tr><td>" + i + " mm / " + mechanicalSpace + " mm" + "</td><td>" + tetaDeg.toFixed(2) + " deg" + "</td><td>"+ (grad*100).toFixed(2) + " %" + "</td><td>" + casterHeight.toFixed(2) + " mm" + "</td></tr>");
+        $("#crafter-data").append("<tr><td>" + i + " mm <strong>/</strong> " + mechanicalSpace + " mm" + "</td><td>" + tetaDeg.toFixed(2) + " deg" + "</td><td>"+ (grad*100).toFixed(2) + " %" + "</td><td>" + casterHeight.toFixed(2) + " mm" + "</td></tr>");
         if (Number.isNaN(tetaDeg)) {
             break;
         }
@@ -47,7 +47,7 @@ $(document).ready(function(){
         grad = Math.tan(tetaRad);
         casterHeight = wcLength*Math.sin(tetaRad);
         mechanicalSpace = sprinterWidth - i;
-        $("#sprinter-data").append("<tr><td>" + i + " mm / " + mechanicalSpace + " mm" + "</td><td>" + tetaDeg.toFixed(2) + " deg" + "</td><td>"+ (grad*100).toFixed(2) + " %" + "</td><td>" + casterHeight.toFixed(2) + " mm" + "</td></tr>");
+        $("#sprinter-data").append("<tr><td>" + i + " mm <strong>/</strong> " + mechanicalSpace + " mm" + "</td><td>" + tetaDeg.toFixed(2) + " deg" + "</td><td>"+ (grad*100).toFixed(2) + " %" + "</td><td>" + casterHeight.toFixed(2) + " mm" + "</td></tr>");
         if (Number.isNaN(tetaDeg)) {
             break;
         }
