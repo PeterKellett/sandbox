@@ -1,10 +1,10 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Blackhills logo](https://res.cloudinary.com/dfboxofas/image/upload/v1611675581/project-4/blackhillls_logo_qgtqtm.png)
 
 Welcome PeterKellett,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+##Sandbox contents  
+1. Campervan ramp calculator  
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
 ## Gitpod Reminders
 
