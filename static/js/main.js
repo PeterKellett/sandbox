@@ -54,6 +54,7 @@ $(document).ready(function () {
     }
 
     $("#submit1").click(function () {
+        $("#ramp-data").empty();
         console.log("submit")
         var vanWidth = $("#van-width").val();
         var vanHeight = $("#van-height").val();
