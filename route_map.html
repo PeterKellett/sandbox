@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://kit.fontawesome.com/5522ae6586.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="static/css/route_map.css" />
+    <script src="static/js/route_map.js"></script>
+
+  </head>
+  <body>
+      <div class="container">
+        <div class="row">
+            <div class="col-2">
+  
+            </div>
+            <div class="col-8" id="map">
+  
+            </div>
+            <div class="col-2">
+  
+            </div>
+        </div>
+      </div>
+      
+    
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMr4lA-D36Wjwan8XGBTgo0MWuLKAXoSM&callback=initMap&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
