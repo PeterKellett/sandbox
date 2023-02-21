@@ -234,11 +234,16 @@ function addLatLng(event) {
   // Because path is an MVCArray, we can simply append a new coordinate
   // and it will automatically appear.
   path.push(event.latLng);
+  console.log("path.latlng = " + path.latlng)
   // Add a new marker at the new plotted point on the polyline.
   new google.maps.Marker({
     position: event.latLng,
     title: "#" + path.getLength(),
     map: map,
   });
-  console.log("Path length = " + path.getLength());
+  console.log("Path = " + path);
+  for (let i = 0; i < path.length; i++) {
+    console.log("i = " + i)
+    console.log("path[i] = " + path[i])
+  }
 }
